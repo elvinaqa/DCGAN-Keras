@@ -32,4 +32,6 @@ Non-trainable params: 384
 Got better results for image data in DCGANs than GANs because of the fact that of using Convolutional layers (Conv2d vs Conv2dTranspose)
 In the first example, had Mode Collapse issues (model only generated the similar images, since it already fooled the discrimnator to be "real" images). However, in the Deep Convulutional Nets, diversity of generated images is observed, thus, proving the superity of DCGAns.
 
+![download (19)](https://user-images.githubusercontent.com/57037068/85211490-ee9e4600-b35a-11ea-8633-284b005e7f22.png)
+![download (18)](https://user-images.githubusercontent.com/57037068/85211491-f0680980-b35a-11ea-8eda-a093b4de2668.png)
 
