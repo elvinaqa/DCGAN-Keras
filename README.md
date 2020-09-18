@@ -1,6 +1,27 @@
 # DCGAN-Keras
 Deep Convolutional Generative Adversarial Networks with Tensorflow Keras Application
 
+## Used Python Libraries
+Include:
+  Numpy
+  Pandas
+  Matplotlib
+  Seaborn
+  Tensorflow
+  Keras
+  
+
+## Features
+
+- Generator for fighting against discrimator in the GAN
+- Discriminator as opponent to the generator
+- Sequential modeling
+- Training on Batches
+- Generating MNIST
+
+## Getting Started
+
+
 # Application is shown on MNIST dataset
 
 ![w5Jsjt](https://user-images.githubusercontent.com/57037068/85211059-877e9280-b356-11ea-8d51-eb9ee530cd5c.gif)
@@ -60,3 +81,31 @@ Summarised: A GAN uses an adversarial feedback loop to learn how to generate som
 The difference
 
 Hopefully that shows that there is a very fundamental structural difference between the two networks, and the goals that each of them are trying to achieve during the learning process. I don't really know if GANs are necessarily "more successful", but for certain generative problems they have been observed to give more "realistic" outputs. Why? My gut says that a GAN probably learns more about "how can I make an image look real in general" rather than "how can I memorise this particular set of images with the greatest accuracy/efficiency". But there are certainly similarities, in particular between the generator (of the GAN) and the decoder (of the autoencoder).
+
+
+## Getting Help
+
+If you have questions or need further guidance on using this template, please [file an issue](https://github.com/elvinaqa/DCGAN-Keras/issues). I will do my best to respond to all issues in a timely manner.
+
+## Contributing Guidelines
+
+All contributions and suggestions are welcome!
+
+For suggested improvements, please [file an issue](https://github.com/elvinaqa/vitual-assistant-python/issues).
+
+For direct contributions, please fork the repository and file a pull request. If you never created a pull request before, welcome 🎉 😄 [Here is a great tutorial](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github) on how to send one.
+
+## Code of Conduct
+
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+This project pledges to follow the [Contributor's Covenant](http://contributor-covenant.org/version/1/4/).
+
+## Credits
+
+
+- [18F's Open Source Maintainer Guidelines](https://pages.18f.gov/open-source-program/pages/maintainer_guidelines/)
+
+## License
+
+This project is licensed under [The Unlicense](https://unlicense.org/) and released to the Public Domain. For more information see our [LICENSE](https://github.com/ascott1/readme-template/blob/master/LICENSE) file.
